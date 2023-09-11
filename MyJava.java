@@ -12,8 +12,10 @@ public class MyJava {
         System.out.print("Input lebar : ");
         float lebar = x.nextFloat();
 
-        float keliling = 2 * (panjang+lebar);
-        System.out.print("Hasil : " +keliling);
+        float luas = panjang+lebar;
+        System.out.print("Hasil : " +luas);
+
+        x.close();
         
     }
 }
